@@ -1,0 +1,13 @@
+/target
+**/*.rs.bk
+Cargo.lock.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.venv/
+venv/
+*.egg-info/
+dist/

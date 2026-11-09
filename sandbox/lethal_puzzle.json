@@ -1,0 +1,25 @@
+{
+  "current_player": 0,
+  "turn": 9,
+  "players": [
+    {
+      "hero_health": 14,
+      "max_mana": 5,
+      "board": [
+        { "card": "Chillwind Yeti" },
+        { "card": "Bloodfen Raptor" }
+      ],
+      "hand": ["Boulderfist Ogre", "Magma Rager"],
+      "deck": ["War Golem", "River Crocolisk"]
+    },
+    {
+      "hero_health": 8,
+      "max_mana": 4,
+      "board": [
+        { "card": "Oasis Snapjaw", "health": 4 }
+      ],
+      "hand": ["Core Hound", "Spider Tank", "Murloc Raider"],
+      "deck": ["Pit Fighter"]
+    }
+  ]
+}

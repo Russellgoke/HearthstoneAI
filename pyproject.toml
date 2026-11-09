@@ -1,0 +1,17 @@
+[build-system]
+requires = ["maturin>=1.5,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "hsengine"
+version = "0.1.0"
+description = "High-performance Hearthstone-style simulator (Rust core, Python bindings)"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+]
+
+[tool.maturin]
+module-name = "hsengine"
+features = ["python", "pyo3/extension-module"]
